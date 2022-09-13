@@ -1,0 +1,22 @@
+.con{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.5);
+}
+
+.modal-pin{
+    position: fixed;
+    border-radius: 2rem;
+    top: 10vh;
+    left: 35vw;
+    min-height: 50vh;
+    width: 30vw
+}
+
+.picSize{
+    width: 25px;
+    height: 25px;
+}

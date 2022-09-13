@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  font-family: Poppins !important;
+}
+
+.text-gray-light{
+  color: #DBE4F5!important
+}
+
+.text-gray-dark{
+  color: #5e6f82!important
+}
+
+.text-black-c1{
+  color: #010101!important
+}
+
+.bg-gray-light{
+  background-color: #DBE4F5!important
+}
+
+.bg-gray-dark{
+  background-color: #5e6f82!important
+}
+
+.bg-black-c1{
+  background-color: #010101!important
+}
+
+.border-gray-dark{
+  border-color: #5e6f82!important
+}
+
+.border-gray-light{
+  border-color: #DBE4F5!important
+}
+
+.border-black-c1{
+  border-color: #010101!important
+}
+
+
+
+.contain{
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.pointer{
+  cursor: pointer!important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,100&display=swap');

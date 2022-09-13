@@ -1,0 +1,21 @@
+.boxSize{
+    height: min-content;
+    width: 35%;
+}
+
+.searchIcon{
+    width: 25px;
+    height: 25px;
+}
+
+.suggestionBox{
+    z-index:3;
+    font-size: 10px;
+    left: 5vw;
+}
+
+.avaUser{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
