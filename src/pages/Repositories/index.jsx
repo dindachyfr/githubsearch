@@ -20,8 +20,6 @@ const DetailRepo = () => {
       limit: 100, 
       page}))
   },[page])
-console.log(ownerData);
-console.log(repos);
   return (
     <Layout>
       <RepoOwner ownerData={ownerData}/>

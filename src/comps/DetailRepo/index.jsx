@@ -17,7 +17,6 @@ const DetailRepo = (props) => {
         day: "numeric"
     };
 
-    console.log(repDetail);
 
     return (
         <table className="w-full text-xs font-nunito">

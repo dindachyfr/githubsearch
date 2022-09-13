@@ -32,8 +32,6 @@ const Repositories = (props) => {
         setRepoName(name)
         setDetail(true)
     }
-    console.log(Math.ceil(repos?.length / limitPage));
-
     return (
         <div className={`w-full px-5`}>
             <div className={`w-full h-full bg-gray-light p-3 rounded-2 mb-5`}>
