@@ -1,16 +1,14 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import Input from '../base/Input'
 import Button from '../base/Button'
 import styles from './sb.module.css'
 import { useDispatch, useSelector } from "react-redux";
 import { searchUser } from '../../redux/actions/userSlice'
-import { useNavigate } from 'react-router-dom';
 
 const SearchBox = (props) => {
     const dispatch = useDispatch()
     const users = useSelector(state => state?.user)
     const [text, setText] = useState("")
-    const navigate = useNavigate()
     const [hide, setHide] = useState(false)
     const handleChange = (string) => {
         setText(string)

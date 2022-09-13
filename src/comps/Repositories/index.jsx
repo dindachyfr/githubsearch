@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from 'react'
 import styles from './rp.module.css'
 import ReactPaginate from 'react-paginate'
