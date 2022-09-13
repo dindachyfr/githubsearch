@@ -4,9 +4,11 @@ import Button from '../base/Button'
 import styles from './sb.module.css'
 import { useDispatch, useSelector } from "react-redux";
 import { searchUser } from '../../redux/actions/userSlice'
+import { useNavigate } from 'react-router-dom';
 
 const SearchBox = (props) => {
     const dispatch = useDispatch()
+    const navigate = useNavigate()
     const users = useSelector(state => state?.user)
     const [text, setText] = useState("")
     const [hide, setHide] = useState(false)
@@ -19,7 +21,7 @@ const SearchBox = (props) => {
     }
     const handleSearch = (e) => {
         e.preventDefault()
-        window.location.replace(`/repositories/${text}`)
+        navigate(`/repositories/${text}`)
     }
 
     const autoComplete = (username) => {
